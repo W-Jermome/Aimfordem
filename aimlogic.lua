@@ -10,7 +10,7 @@ local settings = {
     Aiming = false,
     Aimbot_AimPart = "Head",
     Aimbot_TeamCheck = true,
-    Aimbot_FOV_Radius = 300
+    Aimbot_FOV_Radius = 300,
     Aimbot_Draw_FOV = false,
     Aimbot_FOV_Color = Color3.fromRGB(255, 255, 255)
 }
