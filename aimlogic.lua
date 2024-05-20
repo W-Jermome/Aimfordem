@@ -58,3 +58,15 @@ dwRunService.RenderStepped:Connect(function()
         aimAtClosestTarget()
     end
 end)
+
+local Logic = {}
+
+function Logic.ToggleAimbot(state)
+    settings.Aimbot = state
+end
+
+function Logic.SetAimbotFOV(value)
+    settings.Aimbot_FOV_Radius = value
+end
+
+return Logic
