@@ -1,6 +1,10 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Logic = loadstring(game:HttpGet('https://raw.githubusercontent.com/W-Jermome/aimfordem/main/aimlogic.lua'))()
 
+-- NONE OF THE GUI IS FUNCTIONAL YET
+-- ILL FIX IT TMRW
+-- TRUST ME
+
 local Window = Rayfield:CreateWindow({
     Name = "LuiHub",
     LoadingTitle = "LuiHub",
