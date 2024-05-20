@@ -11,7 +11,18 @@ local settings = {
     Aimbot_AimPart = "Head",
     Aimbot_TeamCheck = true,
     Aimbot_FOV_Radius = 300
+    Aimbot_Draw_FOV = false,
+    Aimbot_FOV_Color = Color3.fromRGB(255, 255, 255)
 }
+
+local fovcircle = Drawing.new("Circle")
+fovcircle.Visible = settings.Aimbot_Draw_FOV
+fovcircle.Radius = settings.Aimbot_FOV_Radius
+fovcircle.Color = settings.Aimbot_FOV_Color
+fovcircle.Thickness = 0
+fovcircle.Filled = false
+fovcircle.Transparency = 1
+fovcircle.Position = Vector2.new(dwCamera.ViewportSize.X / 2, dwCamera.ViewportSize.Y / 2)
 
 local function aimAtClosestTarget()
     local dist = math.huge
