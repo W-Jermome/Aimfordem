@@ -5,10 +5,6 @@ local dwLocalPlayer = dwEntities.LocalPlayer
 local dwMouse = dwLocalPlayer:GetMouse()
 local dwUserInputService = game:GetService("UserInputService")
 
-local airJumpEnabled = true
-local jumpCount = 0
-local maxJumps = 2
-
 local settings = {
     Aimbot = true,
     Aiming = true,
